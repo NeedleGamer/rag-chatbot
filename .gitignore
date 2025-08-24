@@ -1,0 +1,38 @@
+# venvs
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.mypy_cache/
+.pytype/
+
+# OS/editor trash
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local data and vector store
+data/
+vectorstore/
+chroma/
+chroma_db/
+storage/
+*.sqlite3
+
+# Logs and temp
+logs/
+*.log
+.tmp/
+.cache/
+
+# Secrets and env
+.env
+.env.local
+secrets.json
+EOF
